@@ -95,3 +95,53 @@ ul li a:hover {
   text-decoration: none;
   border-left: 8px solid var(--accent);
 }
+
+section {
+  padding: 4rem;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  margin-block: 3rem;
+}
+
+section span {
+  font-size: 1.125rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+section p {
+  margin-bottom: 0;
+}
+
+section.primary {
+  background: var(--primary);
+}
+
+section.primary span {
+  color: #ffffff;
+}
+
+section.primary h2 {
+  color: var(--secondary);
+  font-size: 2rem;
+  margin: 0;
+}
+
+section.primary p {
+  color: #ffffff;
+}
+
+section.secondary span {
+  color: var(--secondary);
+}
+
+section.secondary h2 {
+  color: var(--primary);
+}
+
+section.secondary p {
+  color: var(--primary);
+}
