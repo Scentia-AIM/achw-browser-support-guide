@@ -10,30 +10,48 @@ export default function CacheChrome() {
         <TextBox
           colorChoice="primary"
           stepNumber="One"
-          title="Lorem ipsum sit amet"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        />
-        <TextBox
-          colorChoice="secondary"
-          stepNumber="Two"
-          title="Lorem ipsum sit amet"
+          title="Load up your browser"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         />
         <ImageWithText
-          colorChoice="primary"
+          colorChoice="secondary"
           imagePosition="left"
-          stepNumber="Three"
-          title="Lorem ipsum sit amet"
+          stepNumber="Two"
+          title="Locate the 3 dots"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          imageURL="https://cdn.prod.website-files.com/5e16b0053c053f2da681e51d/63d07beb3b9fe7cb50968245_00978_ACHW_WebsiteUpdates_QualsImages_AppliedHealthScience_20230125.png"
+          imageURL="/cache/chrome/chrome-clear-cache-step-1.png"
         />
         <ImageWithText
           colorChoice="secondary"
           imagePosition="right"
-          stepNumber="Four"
-          title="Lorem ipsum sit amet"
+          stepNumber="Three"
+          title="Select Delete Browsing Data"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          imageURL="https://cdn.prod.website-files.com/5e16b0053c053f2da681e51d/63d07beb3b9fe7cb50968245_00978_ACHW_WebsiteUpdates_QualsImages_AppliedHealthScience_20230125.png"
+          imageURL="/cache/chrome/chrome-clear-cache-step-2.png"
+        />
+        <ImageWithText
+          colorChoice="secondary"
+          imagePosition="left"
+          stepNumber="Four"
+          title="Choose your chosen timeframe"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          imageURL="/cache/chrome/chrome-clear-cache-step-3.png"
+        />
+        <ImageWithText
+          colorChoice="secondary"
+          imagePosition="right"
+          stepNumber="Five"
+          title="Select 'Cached images and files'"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          imageURL="/cache/chrome/chrome-clear-cache-step-4.png"
+        />
+        <ImageWithText
+          colorChoice="primary"
+          imagePosition="left"
+          stepNumber="Six"
+          title="Click Delete Data"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          imageURL="/cache/chrome/chrome-clear-cache-step-5.png"
         />
       </div>
     </>

@@ -13,9 +13,9 @@ export default function ImageWithText({
         <h2>{title}</h2>
         <p>{content}</p>
       </div>
-      <div className="image">
-        <img src={imageURL} alt="" />
-      </div>
+      {/* <div className="image"> */}
+      <img src={imageURL} alt="" />
+      {/* </div> */}
     </section>
   );
 }
