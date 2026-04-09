@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function CardOption({
   title,
@@ -17,7 +18,9 @@ export default function CardOption({
         <ul>
           {browserName.map((browser, index) => (
             <li key={index}>
-              <Link to={category + browser.link}>{browser.name}</Link>
+              <Link to={category + browser.link}>
+                {browser.name} <FaArrowRight />
+              </Link>
             </li>
           ))}
         </ul>
