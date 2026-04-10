@@ -72,14 +72,39 @@ export const guides = {
           type: "text",
           props: {
             colorChoice: "primary",
-            stepNumber: "One",
+            stepNumber: "Seven",
             title: "Reload your webpage!",
             content: "Lorem ipsum...",
           },
         },
       ],
     },
-    edge: {},
+    edge: {
+      title: "Google Chrome",
+      subTitle: "Clearing your browser cache",
+      steps:[
+                {
+          type: "text",
+          props: {
+            colorChoice: "primary",
+            stepNumber: "One",
+            title: "Load up your browser",
+            content: "Lorem ipsum...",
+          },
+        },
+                {
+          type: "image",
+          props: {
+            colorChoice: "secondary",
+            imagePosition: "left",
+            stepNumber: "Two",
+            title: "Locate the 3 dots",
+            content: "Lorem ipsum...",
+            imageURL: "/cache/edge/edge-cache-step-1.png",
+          },
+        },
+      ]
+    },
     safari: {},
     firefox: {},
   },
