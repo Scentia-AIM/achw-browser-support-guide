@@ -6,6 +6,9 @@ export default function ImageWithText({
   imageURL,
   imagePosition,
 }) {
+  const withBase = (path) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
+
   return (
     <section className={`col-2 ${colorChoice} ${imagePosition}`}>
       <div className="content">
@@ -13,9 +16,7 @@ export default function ImageWithText({
         <h2>{title}</h2>
         <p>{content}</p>
       </div>
-      {/* <div className="image"> */}
-      <img src={imageURL} alt="" />
-      {/* </div> */}
+<img src={withBase(imageURL)} alt="" />
     </section>
   );
 }
