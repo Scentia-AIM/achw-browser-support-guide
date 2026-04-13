@@ -80,10 +80,10 @@ export const guides = {
       ],
     },
     edge: {
-      title: "Google Chrome",
+      title: "Microsoft Edge",
       subTitle: "Clearing your browser cache",
-      steps:[
-                {
+      steps: [
+        {
           type: "text",
           props: {
             colorChoice: "primary",
@@ -92,7 +92,7 @@ export const guides = {
             content: "Lorem ipsum...",
           },
         },
-                {
+        {
           type: "image",
           props: {
             colorChoice: "secondary",
@@ -103,7 +103,58 @@ export const guides = {
             imageURL: "/cache/edge/edge-cache-step-1.png",
           },
         },
-      ]
+        {
+          type: "text",
+          props: {
+            colorChoice: "secondary",
+            stepNumber: "Three",
+            title: "Select 'Delete Browsing Data'",
+            content: "Lorem ipsum...",
+          },
+        },
+        {
+          type: "image",
+          props: {
+            colorChoice: "secondary",
+            imagePosition: "right",
+            stepNumber: "Four",
+            title: "Select time range",
+            content: "Lorem ipsum...",
+            imageURL: "/cache/edge/edge-cache-step-2.jpeg",
+          },
+        },
+        {
+          type: "image",
+          props: {
+            colorChoice: "secondary",
+            imagePosition: "left",
+            stepNumber: "Five",
+            title: "Check the 'Cached images & files' box",
+            content: "Lorem ipsum...",
+            imageURL: "/cache/edge/edge-cache-step-3.jpeg",
+          },
+        },
+        {
+          type: "image",
+          props: {
+            colorChoice: "secondary",
+            imagePosition: "right",
+            stepNumber: "Six",
+            title: "Click 'Clear now'",
+            content: "Lorem ipsum...",
+            imageURL: "/cache/edge/edge-cache-step-4.jpeg",
+          },
+        },
+        {
+          type: "text",
+          props: {
+            colorChoice: "primary",
+            stepNumber: "Seven",
+            title: "Reload your webpage!",
+            content: "Lorem ipsum...",
+          },
+        },
+      ],
     },
     safari: {},
     firefox: {},
@@ -111,7 +162,7 @@ export const guides = {
   popup: {
     chrome: {
       title: "Google Chrome",
-      subTitle: "Enabling Pop-ups",
+      subTitle: "Enabling Browser Pop-ups",
       steps: [
         {
           type: "text",
@@ -199,7 +250,83 @@ export const guides = {
         },
       ],
     },
-    edge: {},
+    edge: {
+      title: "Microsoft Edge",
+      subTitle: "Enabling Browser Pop-ups",
+      steps: [
+        {
+          type: "text",
+          props: {
+            colorChoice: "primary",
+            stepNumber: "One",
+            title: "Load up your browser",
+            content: "Lorem ipsum...",
+          },
+        },
+        {
+          type: "text",
+          props: {
+            colorChoice: "secondary",
+            stepNumber: "Two",
+            title: "Go to browser settings",
+            content: "Lorem ipsum...",
+          },
+        },
+        {
+          type: "image",
+          props: {
+            colorChoice: "secondary",
+            imagePosition: "left",
+            stepNumber: "Three",
+            title: "Select 'Site Permissions'",
+            content: "Lorem ipsum...",
+            imageURL: "/pop-up/edge/edge-popup-step-1.jpeg",
+          },
+        },
+        {
+          type: "image",
+          props: {
+            colorChoice: "secondary",
+            imagePosition: "right",
+            stepNumber: "Four",
+            title: "Select 'All Permissions'",
+            content: "Lorem ipsum...",
+            imageURL: "/pop-up/edge/edge-popup-step-2.jpeg",
+          },
+        },
+        {
+          type: "image",
+          props: {
+            colorChoice: "secondary",
+            imagePosition: "left",
+            stepNumber: "Five",
+            title: "Select 'Pop-ups and redirects'",
+            content: "Lorem ipsum...",
+            imageURL: "/pop-up/edge/edge-popup-step-3.jpeg",
+          },
+        },
+        {
+          type: "image",
+          props: {
+            colorChoice: "secondary",
+            imagePosition: "right",
+            stepNumber: "Six",
+            title: "Disable pop-ups ",
+            content: "Lorem ipsum...",
+            imageURL: "/pop-up/edge/edge-popup-step-4.jpeg",
+          },
+        },
+        {
+          type: "text",
+          props: {
+            colorChoice: "primary",
+            stepNumber: "Eight",
+            title: "Reload your webpage!",
+            content: "Lorem ipsum...",
+          },
+        },
+      ],
+    },
     safari: {},
     firefox: {},
   },
