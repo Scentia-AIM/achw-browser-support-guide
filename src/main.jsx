@@ -14,7 +14,7 @@ import "@fontsource/poppins/700.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/achw-browser-support-guide">
       <ScrollToTop />
       <App />
       <Footer />
