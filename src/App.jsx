@@ -25,13 +25,13 @@ export default function App() {
             <div className="container col-2" style={{ marginTop: "2rem" }}>
               <CardOption
                 title="Clear your cache"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="If pages aren't loading properly or look outdated, clearing your cache can help. Select your browser below and follow the steps to refresh your content."
                 category="cache"
                 browsers={Object.keys(guides.cache)}
               />
               <CardOption
                 title="Enable Pop-ups"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="Some websites need pop-ups to work correctly. If something isn’t opening, you may need to enable them. Select your browser below and follow the steps."
                 category="popup"
                 browsers={Object.keys(guides.popup)}
               />

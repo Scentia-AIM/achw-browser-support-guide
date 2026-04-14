@@ -13,7 +13,7 @@ export default function CardOption({ title, description, category, browsers }) {
         <ul>
           {browsers.map((browser, index) => {
             const displayName =
-              browser.charAt(0).toUpperCase() + browser.slice(1); // Chrome instead of chrome
+              browser.charAt(0).toUpperCase() + browser.slice(1);
             return (
               <li key={index}>
                 <Link to={`/${category}/${browser}`}>
